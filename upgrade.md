@@ -18,3 +18,5 @@
     - Override folder `public/themes`, `public/vendor`, `bootstrap`, `vendor` from the latest version.
     - Delete all files in `storage/framework/views` and `storage/framework/cache`.
     - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
+  
+- Go to Admin -> Plugins and activate plugin Mollie if you want to use Mollie payment gateway.
