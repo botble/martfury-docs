@@ -32,10 +32,12 @@
 
 - Upload all files into the root folder of your hosting (normally, it is`public_html`).
 - Create a database and import data from `database.sql` (it's located in source code).
+  ![Database](https://live.staticflickr.com/65535/50847506748_5be4ac9228_b.jpg)
 - Create `.env` from `.env.example` and update your database credentials.
 - Make sure `APP_URL` in `.env` is correct your domain. It should be `APP_URL=http://your-domain.com`
 - Go to `/admin` to access to admin panel.
 - The default admin account is `botble` - `159357`.
+  ![Login](https://live.staticflickr.com/65535/50848324292_9435b27506_b.jpg)
 
 ## Install locally or in VPS
 
@@ -43,6 +45,7 @@
 
 
 - Create `.env` file from `.env-example` and update your configuration.
+  ![Env](https://live.staticflickr.com/65535/50848231176_5a3ba243e7_b.jpg)
 
 - Using sample data: 
     - Import database from `database.sql`.
