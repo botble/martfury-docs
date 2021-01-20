@@ -2,7 +2,7 @@
 
 <a name="version_1_2"></a>
 ## Martfury 1.2
-### Jan 18, 2021
+### Jan 20, 2021
 - Add ZIP code into customer address, able to enable/disable in settings https://prnt.sc/x3zolu
 - Change product's images when selecting product variations.
 - Improve checkout speed.
@@ -11,6 +11,8 @@
 - Fix shortcode `product-category-products`.
 - Fix bugs update order's note, price format and order's weight.
 - Fix discount/coupon section in the cart page.
+- Fix discount amount when removing products from the cart.
+- Fix default product price and sort product attributes.
 
 <a name="version_1_1"></a>
 ## Martfury 1.1
