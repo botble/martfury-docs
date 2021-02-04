@@ -1,5 +1,19 @@
 # Release Notes
 
+<a name="version_1_3"></a>
+## Martfury 1.3
+### Jan 20, 2021
+- Upgrade to Laravel 8.
+- Improve permalinks.
+- Allow to delete products after it's purchased by customers.
+- Prevent error when deleting a product which is added into the cart.
+- Prevent access Ajax URLs directly.
+- Optimize checkout speed.
+- Fix bug when updating flash sales.
+- Fix E-commerce settings and add settings for thousands and decimal separator.
+- Fix order's amount when creating from admin panel.
+- Fix permission issue.
+
 <a name="version_1_2"></a>
 ## Martfury 1.2
 ### Jan 20, 2021
