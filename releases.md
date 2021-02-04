@@ -5,13 +5,13 @@
 ### Jan 20, 2021
 - Upgrade to Laravel 8.
 - Improve permalinks.
-- Allow to delete products after it's purchased by customers.
-- Prevent error when deleting a product which is added into the cart.
-- Prevent access Ajax URLs directly.
+- Allow deleting products after it's purchased by customers.
+- Prevent error when deleting a product that is added into the cart.
+- Prevent access to Ajax URLs directly.
 - Optimize checkout speed.
 - Fix bug when updating flash sales.
-- Fix E-commerce settings and add settings for thousands and decimal separator.
-- Fix order's amount when creating from admin panel.
+- Fix E-commerce settings and add settings for thousands and decimal separators.
+- Fix the order's amount when creating from the admin panel.
 - Fix permission issue.
 
 <a name="version_1_2"></a>
