@@ -2,7 +2,7 @@
 
 <a name="version_1_4"></a>
 ## Martfury 1.4
-### Feb 17, 2021
+### Feb 18, 2021
 
 - Add option to display product price including taxes.
 - Add option to set available countries. Check Admin -> Ecommerce -> Settings.
