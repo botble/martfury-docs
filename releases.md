@@ -1,5 +1,19 @@
 # Release Notes
 
+<a name="version_1_4"></a>
+## Martfury 1.4
+### Feb 17, 2021
+
+- Add option to display product price including taxes.
+- Add option to set available countries. Check Admin -> Ecommerce -> Settings.
+- Update list countries. Add Kosovo.
+- Improve product reviews
+- Improve page SEO meta.
+- Fix calculate shipping fee.
+- Fix Custom CSS.
+- Fix bug Editor on PHP 8.
+- Refactor code & improve queries for better performance.
+
 <a name="version_1_3"></a>
 ## Martfury 1.3
 ### Jan 20, 2021
