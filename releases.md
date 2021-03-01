@@ -3,8 +3,9 @@
 <a name="version_1_5"></a>
 ## Martfury 1.5
 ### Mar 01, 2021
-- Add SSLCommerz payment gateway.
+- Added SSLCommerz payment gateway.
 - New option to add custom JS in Admin -> Appearance -> Custom JS.
+- Added setting in Admin -> Settings -> General to change login screen backgrounds.
 - Change product SKU when changing product attribute.
 - Improve dashboard widgets.
 - Improve payment gateways.
