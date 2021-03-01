@@ -1,5 +1,18 @@
 # Release Notes
 
+<a name="version_1_5"></a>
+## Martfury 1.5
+### Mar 01, 2021
+- Add SSLCommerz payment gateway.
+- Change product SKU when changing product attribute.
+- Improve dashboard widgets.
+- Improve payment gateways.
+- Improve order tracking.
+- Fix permission issue on Contact plugin.
+- Fix invoice with Euro sign.
+- Fix flash messages.
+- Fix apply coupon in checkout recovery.
+
 <a name="version_1_4"></a>
 ## Martfury 1.4
 ### Feb 18, 2021
