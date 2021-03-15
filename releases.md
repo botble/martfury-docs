@@ -14,8 +14,8 @@
 ### Mar 15, 2021
 - Added RTL support.
 - Improve SSLCommerz payment gateway.
-- Improve currency and display product's quantity in product listing.
-- Update dashboard widgets for eCommerce purpose.
+- Improve currency and display product quantity in the product listing.
+- Update dashboard widgets for eCommerce purposes.
 - Update email templates.
 - Fix cart image when product variation has no image.
 - Fix bug create order from the admin panel.
