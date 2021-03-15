@@ -1,5 +1,29 @@
 # Release Notes
 
+- [Martfury 1.6](#version_1_6)
+- [Martfury 1.5](#version_1_5)
+- [Martfury 1.4](#version_1_4)
+- [Martfury 1.3](#version_1_3)
+- [Martfury 1.2](#version_1_2)
+- [Martfury 1.1](#version_1_1)
+- [Martfury 1.0](#version_1_0)
+
+
+<a name="version_1_6"></a>
+## Martfury 1.6
+### Mar 15, 2021
+- Added RTL support.
+- Improve SSLCommerz payment gateway.
+- Improve currency and display product's quantity in product listing.
+- Update dashboard widgets for eCommerce purpose.
+- Update email templates.
+- Fix cart image when product variation has no image.
+- Fix bug create order from the admin panel.
+- Fix bug Serialization of 'GdImage' is not allowed.
+- Fix Mollie payment when amount > 1000.
+- Fix permission issues.
+- Prevent process order many times.
+
 <a name="version_1_5"></a>
 ## Martfury 1.5
 ### Mar 01, 2021
