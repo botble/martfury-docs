@@ -8,6 +8,19 @@
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
 
+<a name="version_1_7"></a>
+## Martfury 1.7
+### Apr 12, 2021
+- Update cart by Ajax.
+- Add product's description in the compare page.
+- Fix tax on product variations.
+- Improve UI & allow modify email templates for verify account email and reset password.
+- Improve filter products, allow search by tags.
+- Add option to turn off automatic URL translation into Latin.
+- Add command to rename the theme to the new name.
+- Add option to force URL & schema.
+- Improve email templates.
+- Refactor code & optimize performance.
 
 <a name="version_1_6"></a>
 ## Martfury 1.6
