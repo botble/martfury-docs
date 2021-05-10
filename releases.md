@@ -13,6 +13,8 @@
 <a name="version_1_8"></a>
 ## Martfury 1.8
 ### May 10, 2021
+- Add product labels.
+- Change product filters to use Ajax.
 - Improve theme UI.
 - Fix change user's password.
 - Fix bug customer address when zip code empty
