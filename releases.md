@@ -1,5 +1,7 @@
 # Release Notes
 
+- [Martfury 1.8](#version_1_8)
+- [Martfury 1.7](#version_1_7)
 - [Martfury 1.6](#version_1_6)
 - [Martfury 1.5](#version_1_5)
 - [Martfury 1.4](#version_1_4)
@@ -7,6 +9,17 @@
 - [Martfury 1.2](#version_1_2)
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
+
+<a name="version_1_8"></a>
+## Martfury 1.8
+### May 10, 2021
+- Improve theme UI.
+- Fix change user's password.
+- Fix bug customer address when zip code empty
+- Remove unused services in Google Client API services to reduce app size.
+- Update theme options & handle errors when saving custom CSS.
+- Optimize queries.
+- Refactor code & improve performance.
 
 <a name="version_1_7"></a>
 ## Martfury 1.7
