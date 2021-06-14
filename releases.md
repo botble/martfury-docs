@@ -1,5 +1,6 @@
 # Release Notes
 
+- [Martfury 1.9](#version_1_9)
 - [Martfury 1.8](#version_1_8)
 - [Martfury 1.7](#version_1_7)
 - [Martfury 1.6](#version_1_6)
@@ -9,6 +10,24 @@
 - [Martfury 1.2](#version_1_2)
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
+
+<a name="version_1_9"></a>
+## Martfury 1.9
+### Jun 14, 2021
+- Added RTL support for the admin panel.
+- Added bulk deletes for product variations & optimize create all variations.
+- Improve product swatches: disable not available options.
+- Display out of stock badge.
+- Fix payment gateways.
+- Fix product's quantity & stock status
+- Fix shipping when only 1 country available.
+- Fix discount.
+- Fix gallery shortcode.
+- Fix some errors on PHP 8.
+- Improve media, fix some errors with SVG.
+- Improve UI.
+- Optimize queries.
+- Refactor code & improve performance.
 
 <a name="version_1_8"></a>
 ## Martfury 1.8
