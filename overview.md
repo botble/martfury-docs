@@ -8,7 +8,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-Martfury is a Multipurpose Ecommerce System using Laravel 7.x. It's a product built on Botble CMS.
+Martfury is a Multipurpose Ecommerce System using Laravel 8.x. It's a product built on Botble CMS.
 
 Created: `Jan 05, 2021`
 
