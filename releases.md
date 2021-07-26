@@ -1,5 +1,6 @@
 # Release Notes
 
+- [Martfury 1.11](#version_1_11)
 - [Martfury 1.10](#version_1_10)
 - [Martfury 1.9](#version_1_9)
 - [Martfury 1.8](#version_1_8)
@@ -11,6 +12,21 @@
 - [Martfury 1.2](#version_1_2)
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
+
+<a name="version_1_11"></a>
+## Martfury 1.11
+### Jul 27, 2021
+- Update CKEditor and TinyMCE to the latest version (version 5).
+- Update media: Add a button to download media files from URL.
+- Able to add multiple admin emails in Admin -> Settings -> General.
+- Big change on blog categories & product categories. Hierarchical tree structured category https://prnt.sc/1g4ht0w.
+- Prevent clear cart after logging out.
+- Add PayPal & Stripe refund.
+- Improve currencies setting. Prevent error when deleting the default currency.
+- Improve email templates.
+- Ajax update cart.
+- Fix missing translations.
+- Fix shipping fees for stores.
 
 <a name="version_1_10"></a>
 ## Martfury 1.10
