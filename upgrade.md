@@ -29,8 +29,7 @@
   - Run command `php artisan cms:plugin:activate marketplace` to activate plugin Marketplace if you need multi-vendor features.
 
 - For non-developers:
-  - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
-  - Override folder `public/themes`, `public/vendor`, `bootstrap`, `vendor` from the latest version.
+  - Override folder `app`, `bootstrap`, `config`, `platform`, `vendor`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
   - Delete all files in `storage/framework/views` and `storage/framework/cache`.
   - Go to Admin -> Plugins: deactivate plugin `Ecommerce` then activate it again.
   - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
