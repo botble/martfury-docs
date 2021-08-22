@@ -1,5 +1,6 @@
 # Release Notes
 
+- [Martfury 1.12](#version_1_12)
 - [Martfury 1.11](#version_1_11)
 - [Martfury 1.10](#version_1_10)
 - [Martfury 1.9](#version_1_9)
@@ -12,6 +13,34 @@
 - [Martfury 1.2](#version_1_2)
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
+
+<a name="version_1_12"></a>
+## Martfury 1.12
+### Aug 23, 2021
+- Fix social login.
+- Fix Contact plugin with the new editor.
+- Fix permission issues.
+- Fix currency settings.
+- Fix checkout recovery.
+- Fix display product variant image on checkout or order detail page.
+- Fix Mollie payment gateway (handle when customer cancel payment).
+- Fix Razorpay (correct amount with shipping fee).
+- Fix homepage slider on small screen.
+- Fix apply coupon on cart page.
+- Fix product compare (allow to hide some unwanted product attributes).
+- Add Bulk Import Products from CSV/Excel.
+- Add search products by brand.
+- Add order delivery notes.
+- Add filter products by category in Admin -> Ecommerce -> Products.
+- Add more social links in Theme options.
+- Improve eCommerce reports page.
+- Improve discount & create order (make it translatable).
+- Improve shortcode. Make it easier to modify added shortcodes.
+- Improve editor & clean XSS.
+- Update email templates.
+- Update to the latest Laravel version 8.55.0
+- Improve core.
+- Optimize queries performance.
 
 <a name="version_1_11"></a>
 ## Martfury 1.11

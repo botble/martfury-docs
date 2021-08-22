@@ -1,5 +1,6 @@
 # Upgrade Guide
 
+- [Upgrade to Martfury 1.12](#version_1_12)
 - [Upgrade to Martfury 1.11](#version_1_11)
 - [Upgrade to Martfury 1.10](#version_1_10)
 - [Upgrade to Martfury 1.9](#version_1_9)
@@ -12,6 +13,28 @@
 - [Upgrade to Martfury 1.2](#version_1_2)
 - [Upgrade to Martfury 1.1](#version_1_1)
 
+<a name="version_1_12"></a>
+## Upgrade to version 1.12
+
+>  {warning} This version requires PHP >= 7.3, make sure your hosting support PHP 7.3 or higher.
+
+- For developers:
+  - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
+  - Update file `composer.json` and `composer.lock` from new source code.
+  - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
+  - Run `php artisan cms:publish:assets`.
+  - Run command `php artisan vendor:publish --tag=cms-lang --force` to update translations.
+  - Run `php artisan migrate` to update the database.
+  - Run `php artisan optimize:clear` to clear cache.
+  - Run command `php artisan cms:plugin:activate marketplace` to activate plugin Marketplace if you need multi-vendor features.
+
+- For non-developers:
+  - Override folder `app`, `bootstrap`, `config`, `platform`, `vendor`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
+  - Delete all files in `storage/framework/views` and `storage/framework/cache`.
+  - Go to Admin -> Plugins: deactivate plugin `Ecommerce` then activate it again.
+  - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
+  - Go to Admin -> Plugins and activate plugin Marketplace if you need multi-vendor features.  
+  - 
 <a name="version_1_11"></a>
 ## Upgrade to version 1.11
 
