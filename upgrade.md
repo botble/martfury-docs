@@ -19,7 +19,7 @@
 >  {warning} This version requires PHP >= 7.3, make sure your hosting support PHP 7.3 or higher.
 
 - For developers:
-  - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
+  - Override folder `app`, `database`, `config`, `platform`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
   - Update file `composer.json` and `composer.lock` from new source code.
   - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
   - Run `php artisan cms:publish:assets`.
@@ -29,7 +29,7 @@
   - Run command `php artisan cms:plugin:activate marketplace` to activate plugin Marketplace if you need multi-vendor features.
 
 - For non-developers:
-  - Override folder `app`, `bootstrap`, `config`, `platform`, `vendor`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
+  - Override folder `app`, `bootstrap`, `database`, `config`, `platform`, `vendor`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
   - Delete all files in `storage/framework/views` and `storage/framework/cache`.
   - Go to Admin -> Plugins: deactivate plugin `Ecommerce` then activate it again.
   - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
