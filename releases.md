@@ -18,6 +18,7 @@
 <a name="version_1_13"></a>
 ## Martfury 1.13
 ### Sep 16, 2021
+- Add vendor verification.
 - Add product review images.
 - Add weekly abandoned carts email notifications
 - Add minimum order amount for COD.
