@@ -67,8 +67,7 @@ If you are using Cpanel, you can follow this article to change your PHP memory l
     - Run `php artisan cms:theme:activate martfury`
 
 - If you're pulled source code from GIT server:
-    - Run `php artisan vendor:publish --tag=cms-public --force`
-    - Run `php artisan cms:theme:assets:publish`
+    - Run `php artisan cms:publish:assets`
 
 - Run web locally:
     - Change `APP_URL` in `.env` to `APP_URL=http://localhost:8000`
@@ -76,3 +75,13 @@ If you are using Cpanel, you can follow this article to change your PHP memory l
     - Go to `/admin` to access to admin panel.
     - If you're using sample data, the default admin account is `botble` - `159357`.
     - If you don't use sample data, you need to go to Admin -> Plugins then activate all plugins.
+
+## Setup cron job
+
+Cronjob is used to send emails abandoned carts notification automatically every week. You can ignore this step if you don't need that feature.
+
+```bash
+* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+```
+
+Setup cron job in Cpanel: https://help.fasthosts.co.uk/app/answers/detail/a_id/2198/~/setting-up-cron-jobs-in-cpanel
