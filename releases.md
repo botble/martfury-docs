@@ -1,5 +1,6 @@
 # Release Notes
 
+- [Martfury 1.13](#version_1_13)
 - [Martfury 1.12](#version_1_12)
 - [Martfury 1.11](#version_1_11)
 - [Martfury 1.10](#version_1_10)
@@ -13,6 +14,33 @@
 - [Martfury 1.2](#version_1_2)
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
+
+<a name="version_1_13"></a>
+## Martfury 1.13
+### Sep 16, 2021
+- Add product review images.
+- Add weekly abandoned carts email notifications
+- Add minimum order amount for COD.
+- Fix revenue in vendor dashboard.
+- Fix get products by category & breadcrumb.
+- Fix layout when disabling review.
+- Fix theme migration & issue when activating plugin Language.
+- Fix admin email.
+- Fix cache issue in media.
+- Clear data when deleting customer.
+- Improve product categories widgets.
+- Improve product categories dropdown (allow adding custom image for icon).
+- Improve invoice. Add setting to change font family for invoices.
+- Improve payment gateways.
+- Improve CKEditor.
+- Improve theme custom CSS/JS.
+- Improve allowed iframe types.
+- Handle TokenMismatchException.
+- Prevent error when missing watermark image.
+- Update to the latest Laravel version 8.60.0
+- Improve UI.
+- Improve core.
+- Optimize queries performance.
 
 <a name="version_1_12"></a>
 ## Martfury 1.12
