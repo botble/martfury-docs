@@ -14,7 +14,7 @@
 - [Upgrade to Martfury 1.2](#version_1_2)
 - [Upgrade to Martfury 1.1](#version_1_1)
 
-a name="version_1_13"></a>
+<a name="version_1_13"></a>
 ## Upgrade to version 1.13
 
 >  {warning} This version requires PHP >= 7.3, make sure your hosting support PHP 7.3 or higher.
