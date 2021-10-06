@@ -42,8 +42,8 @@ If you are using Cpanel, you can follow this article to change your PHP memory l
 - Upload all files into the root folder of your hosting (normally, it is`public_html`).
 - Create a database and import data from `database.sql` (it's located in source code).
   ![Database](https://live.staticflickr.com/65535/50847506748_5be4ac9228_b.jpg)
-- Open file `.env` and update your database credentials (if `.env` file is not existed, you can create it from `.env.example`).
-- Make sure `APP_URL` in `.env` is correct your domain. It should be `APP_URL=http://your-domain.com`
+- Update your database credentials and `APP_URL` in `.env`.
+  ![Env](https://live.staticflickr.com/65535/50848231176_5a3ba243e7_b.jpg)
 - Go to `/admin` to access to admin panel.
 - The default admin account is `botble` - `159357`.
   ![Login](https://live.staticflickr.com/65535/50848324292_9435b27506_b.jpg)
@@ -53,7 +53,7 @@ If you are using Cpanel, you can follow this article to change your PHP memory l
 > {warning} If you're a Laravel developer and you want to customize our source code in `platform/core` and `platform/packages`, you need to delete folder `/vendor` then run command `composer install` to reinstall vendor packages.
 
 
-- Create `.env` file from `.env-example` and update your configuration.
+- Update your database credentials and `APP_URL` in `.env`.
   ![Env](https://live.staticflickr.com/65535/50848231176_5a3ba243e7_b.jpg)
 
 - Using sample data: 
