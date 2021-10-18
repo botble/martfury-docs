@@ -1,5 +1,6 @@
 # Release Notes
 
+- [Martfury 1.14](#version_1_14)
 - [Martfury 1.13](#version_1_13)
 - [Martfury 1.12](#version_1_12)
 - [Martfury 1.11](#version_1_11)
@@ -14,6 +15,30 @@
 - [Martfury 1.2](#version_1_2)
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
+
+<a name="version_1_14"></a>
+## Martfury 1.14
+### Oct 19, 2021
+- Add multi-language support.
+- Add product approval.
+- Add option to enable/disable a vendor store.
+- Add option to add/subtract vendor balance.
+- Upgrade admin theme to Bootstrap 5.
+- Add system updater. 1-click update to the latest version.
+- Add BunnyCDN cloud storage.
+- Improve PayPal & Razorpay. Display warning if the current currency isn't supported by PayPal / Razorpay.
+- Improve invoice template.
+- Fix checkout page, apply coupon.
+- Fix bug admin email, login backgrounds.
+- Fix missing translations.
+- Make phone field at the checkout optional.
+- Update to the latest Laravel version 8.64.0
+- Improve multi-language.
+- Improve RTL mode for admin & vendor dashboard.
+- Improve UI & Editors.
+- Improve cookie consent (Added minimal style).
+- Improve core.
+- Optimize queries performance.
 
 <a name="version_1_13"></a>
 ## Martfury 1.13
