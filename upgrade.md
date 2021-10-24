@@ -32,7 +32,7 @@
 - For non-developers:
   - Override folder `app`, `bootstrap`, `database`, `config`, `platform`, `vendor`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
   - Delete all files in `storage/framework/views` and `storage/framework/cache`.
-  - Go to Admin -> Plugins: deactivate plugin `Ecommerce`, `Marketplace`, `Payment` then activate them again.
+  - Go to Admin -> Plugins: deactivate plugin `Ecommerce`, `Marketplace`, `Payment`, ` Language Advanced` then activate them again.
   - Go to Admin -> Translations -> Other translations then click on `Import group` to update translations.
 
 >  {warning} Go to Admin -> Plugins and activate plugin Language & Language Advanced if you need multi-language support.
