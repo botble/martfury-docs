@@ -1,5 +1,6 @@
 # Upgrade Guide
 
+- [Upgrade to Martfury 1.15](#version_1_15)
 - [Upgrade to Martfury 1.14](#version_1_14)
 - [Upgrade to Martfury 1.13](#version_1_13)
 - [Upgrade to Martfury 1.12](#version_1_12)
@@ -14,6 +15,17 @@
 - [Upgrade to Martfury 1.3](#version_1_3)
 - [Upgrade to Martfury 1.2](#version_1_2)
 - [Upgrade to Martfury 1.1](#version_1_1)
+
+<a name="version_1_15"></a>
+## Upgrade to version 1.15
+
+- Option 1 (Auto update): Go to Admin -> System Administration -> System Updater and click "Download & install update".
+
+- Option 2 (Manual update):
+  - Override folder `app`, `database`, `config`, `platform`, `public/themes`, `public/vendor`, `bootstrap`, `vendor`, `composer.json`, `composer.lock` and `public/index.php` from the latest version.
+  - Go to Admin -> Platform Administration -> Cache management then clear all caches.
+  - Go to Admin -> Plugins: deactivate plugin `Ecommerce` & `Marketplace` then activate them again.
+  - Go to Admin -> Translations -> Other translations then click on `Import group` to update translations.
 
 <a name="version_1_14"></a>
 ## Upgrade to version 1.14
