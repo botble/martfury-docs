@@ -1,5 +1,6 @@
 # Release Notes
 
+- [Martfury 1.17](#version_1_17)
 - [Martfury 1.16](#version_1_16)
 - [Martfury 1.15](#version_1_15)
 - [Martfury 1.14](#version_1_14)
@@ -17,6 +18,25 @@
 - [Martfury 1.2](#version_1_2)
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
+
+<a name="version_1_17"></a>
+## Martfury 1.17
+### Feb 21, 2022
+- Add option to change city/state to dropdown. Check docs: [Location](usage-location.md).
+- Fix product price on homepage blocks.
+- Fix issue with Cloudflare SSL.
+- Fix tree category & social links.
+- Fix duplicate shortcode in CKEditor.
+- Fix saving SEO meta tags.
+- Update product import template.
+- Improve invoice.
+- Improve license.
+- Improve permalink.
+- Improve dashboard widgets.
+- Improve core.
+- Prevent Method Not Allowed error when use ajax DELETE/PUT.
+- Add schema for post & page.
+- Update AWS S3 settings.
 
 <a name="version_1_16"></a>
 ## Martfury 1.16
@@ -36,7 +56,7 @@
 - Improve search products.
 - Improve multi-language.
 - Improve editor & media.
-- 
+ 
 <a name="version_1_15"></a>
 ## Martfury 1.15
 ### Nov 18, 2021
