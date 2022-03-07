@@ -64,3 +64,37 @@ Screenshot:
 
 Screenshot:
 ![Image](https://live.staticflickr.com/65535/51915262029_50ae25c9e0_b.jpg)
+
+- Option 3: Using font **CyberCJK**.
+
+Customize template like this:
+
+```CSS
+@font-face {
+    font-family: CyberCJK;
+    src: url("http://eclecticgeek.com/dompdf/fonts/cjk/Cybercjk.ttf") format("truetype");
+}
+
+body {
+    font-size: 15px;
+    font-family: CyberCJK, Arial, sans-serif !important;
+}
+```
+
+## Sinhala font
+
+- Download font **kaputaunicode** from http://www.kaputa.com/slword/kaputaunicode.htm.
+- Upload `kaputaunicode.tff` to folder `/public`.
+- Copy file `platform/plugins/ecommerce/resources/views/invoices/template.blade.php` to `storage/app/invoices/template.blade.php` to start customize.
+- Change in CSS:
+```CSS
+  @font-face {
+    font-family: kaputaunicode;
+    src: url('{{ url('kaputaunicode.ttf') }}');
+  }
+  
+  body {
+      font-size: 15px;
+      font-family: kaputaunicode, Arial, sans-serif !important;
+  }
+```
