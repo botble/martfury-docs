@@ -33,7 +33,6 @@
   - Go to Admin -> Plugins: deactivate plugin `Blog`, `FAQ`, `Language`, `Language Advanced`, `Ecommerce` & `Marketplace` then activate them again.
   - Go to Admin -> Translations -> Other translations then click on `Import group` to update translations.
 
-
 <a name="version_1_19"></a>
 ## Upgrade to version 1.19
 
@@ -44,7 +43,6 @@
   - Go to Admin -> Platform Administration -> Cache management then clear all caches.
   - Go to Admin -> Plugins: deactivate plugin `Blog`, `FAQ`, `Language`, `Language Advanced`, `Ecommerce` & `Marketplace` then activate them again.
   - Go to Admin -> Translations -> Other translations then click on `Import group` to update translations.
-
 
 <a name="version_1_18"></a>
 ## Upgrade to version 1.18
