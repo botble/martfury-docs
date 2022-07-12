@@ -1,5 +1,7 @@
 # Release Notes
 
+- [Martfury 1.20](#version_1_20)
+- [Martfury 1.19](#version_1_19)
 - [Martfury 1.18](#version_1_18)
 - [Martfury 1.17](#version_1_17)
 - [Martfury 1.16](#version_1_16)
@@ -19,6 +21,56 @@
 - [Martfury 1.2](#version_1_2)
 - [Martfury 1.1](#version_1_1)
 - [Martfury 1.0](#version_1_0)
+
+<a name="version_1_20"></a>
+## Martfury 1.20
+### Jul 13, 2022
+- Add Stripe Checkout option. Enable it in Admin -> Payments -> Payment methods.
+- Add option to download available translation files from GitHub.
+- Move folder /resources/lang to /lang.
+- Add order referrals (UTM tracking) https://prnt.sc/sft4o0m2noDJ
+- Add permission to manage license.
+- Add search settings (Admin -> Ecommerce -> Advanced settings).
+- Fix multi-language in the vendor dashboard.
+- Fix Arabic language (RTL language) in invoice.
+- Fix media URL.
+- Fix order history.
+- Fix PayPal payment gateway.
+- Fix product categories filter.
+- Correct product quantity when placing order, cancel order.
+- Fix RTL style.
+- Prevent issue when deactivating plugin Language.
+- Prevent order creation when payment failed.
+- Improve payment process.
+- Improve admin UI.
+- Improve menu.
+- Improve cache system (fix cache won't be cleared after translating data).
+- Update libraries / third-party package to the latest version.
+- Improve queries performance.
+
+<a name="version_1_19"></a>
+## Martfury 1.19
+### May 24, 2022
+- Add custom HTML shortcode.
+- Add text direction toolbar to editor.
+- Add option to add custom HTML to header, body or footer of page.
+- Add option to regenerate media thumbnails from admin panel.
+- Add memory limit & max execution time info to system information page.
+- Add option to add watermark for images in specific folders.
+- Allow to redirect all 404 requests to homepage.
+- Add DB index to some tables.
+- Handle error when activating license.
+- Fix image rotate issue when cropping thumbnails.
+- Fix media download on PHP 8.
+- Fix Admin RTL mode.
+- Improve contact form: add math captcha, blacklist words & domains to prevent spam mails.
+- Improve multi-language.
+- Improve dashboard widgets style & pagination.
+- Improve license system.
+- Improve admin bar.
+- Refactor code.
+- Update libraries.
+- Optimize queries.
 
 <a name="version_1_18"></a>
 ## Martfury 1.18
