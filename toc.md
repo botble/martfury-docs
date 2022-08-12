@@ -12,10 +12,15 @@
   - [Backup](plugin-backup.md)
 
 - Usage
-  - [Setup email](usage-email.md)
+  - [Custom CSS/JS](usage-custom-css-js.md)
+  - [Translation](usage-translation.md)
+  - [Email](usage-email.md)
+  - [Multi-language](usage-multi-language.md)
+  - [Currencies](usage-currencies.md)
   - [Setup Amazon S3](usage-media-s3.md)
   - [Setup social login](usage-social-login.md)
   - [Analytics](usage-analytics.md)
   - [Rename theme](theme-rename.md)
+  - [Backup](usage-backup.md)
   - [Location](usage-location.md)
   - [Invoice template](invoice-template.md)
