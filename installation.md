@@ -81,7 +81,7 @@ If you are using Cpanel, you can follow this article to change your PHP memory l
 Cronjob is used to send emails abandoned carts notification automatically every week. You can ignore this step if you don't need that feature.
 
 ```bash
-* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+* * * * * /usr/local/bin/php /path-to-your-project/artisan schedule:run >> /dev/null 2>&1
 ```
 
-Setup cron job in Cpanel: https://help.fasthosts.co.uk/app/answers/detail/a_id/2198/~/setting-up-cron-jobs-in-cpanel
+Setup cron job in cPanel: https://www.youtube.com/watch?v=t5mjWGegE-g
