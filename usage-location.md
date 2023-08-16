@@ -8,15 +8,11 @@ Result:
 
 ## Activate plugin Location
 
-Go to Admin -> Plugins to activate it.
-
-![Image](https://live.staticflickr.com/65535/51890566088_37de3c6f2b_b.jpg)
+Go to Admin -> Plugins to activate plugin Location.
 
 ## Add countries, states, cities
 
 You can add manually from Admin -> Location or import from CSV in Admin -> Tools -> Import locations.
-
-![Image](https://live.staticflickr.com/65535/51889519232_6a2e8830e7_b.jpg)
 
 ## Enable to use
 

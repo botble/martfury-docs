@@ -30,13 +30,9 @@ To display Bangladesh text in invoice, need to use font **FreeSerif**.
 </style>
 ```
 
-Screenshot:
-![Image](https://live.staticflickr.com/65535/51915032123_81575aa62e_b.jpg)
-
 ## Japanese font
 
 - Option 1: Select font `M Plus Rounded 1c` for invoice font in Admin -> Ecommerce -> Settings.
-  ![Image](https://live.staticflickr.com/65535/51913973982_998c9492c5_b.jpg)
 
 - Option 2: Customize invoice template like this:
 
@@ -66,9 +62,6 @@ Screenshot:
     ...
 </style>
 ```
-
-Screenshot:
-![Image](https://live.staticflickr.com/65535/51915262029_50ae25c9e0_b.jpg)
 
 - Option 3: Using font **CyberCJK**.
 
