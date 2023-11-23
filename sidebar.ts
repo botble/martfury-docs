@@ -20,7 +20,6 @@ export default [
   {
     text: 'Usage',
     items: [
-      { text: 'Rename theme', link: '/martfury/theme-rename' },
       { text: 'Custom CSS/JS', link: '/martfury/usage-custom-css-js' },
       { text: 'Translation', link: '/martfury/usage-translation' },
       { text: 'Multi-language', link: '/martfury/usage-multi-language' },
@@ -36,4 +35,10 @@ export default [
       { text: 'Invoice template', link: '/martfury/invoice-template' },
     ],
   },
+  {
+    text: 'Development',
+    items: [
+      { text: 'Rename theme', link: '/martfury/theme-rename' },
+    ]
+  }
 ] satisfies DefaultTheme.SidebarItem[];
