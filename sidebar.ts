@@ -33,6 +33,7 @@ export default [
       { text: 'Setup social login', link: '/martfury/usage-social-login' },
       { text: 'Location', link: '/martfury/usage-location' },
       { text: 'Invoice template', link: '/martfury/invoice-template' },
+      { text: 'Setup cronjob', link: '/martfury/cronjob' },
     ],
   },
   {
