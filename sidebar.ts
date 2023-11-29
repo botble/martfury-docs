@@ -28,12 +28,12 @@ export default [
       { text: 'Media - Setup BunnyCDN', link: '/martfury/usage-media-bunnycdn' },
       { text: 'Media - Setup Wasabi', link: '/martfury/usage-media-wasabi' },
       { text: 'Setup email', link: '/martfury/usage-email' },
-
       { text: 'Currencies', link: '/martfury/usage-currencies' },
       { text: 'Setup social login', link: '/martfury/usage-social-login' },
       { text: 'Location', link: '/martfury/usage-location' },
       { text: 'Invoice template', link: '/martfury/invoice-template' },
       { text: 'Setup cronjob', link: '/martfury/cronjob' },
+      { text: 'Newsletter', link: '/martfury/usage-newsletter' },
     ],
   },
   {
