@@ -26,7 +26,7 @@ Password: `159357`
 
 ## Botble Team
 
-Visit us at [https://botble.com](botble.com)
+Visit us at [botble.com](https://botble.com)
 
 ## Why choose us
 
@@ -49,4 +49,4 @@ Admin template comes with color schemes to match your taste.
 
 ## Botble Team
 
-Visit us at [https://botble.com](botble.com).
+Visit us at [botble.com](https://botble.com).
