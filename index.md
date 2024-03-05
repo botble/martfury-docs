@@ -20,9 +20,9 @@ Homepage: [https://martfury.botble.com](https://martfury.botble.com)
 
 Admin Area: [https://martfury.botble.com/admin](https://martfury.botble.com/admin)
 
-Username: `botble`
+Username: `admin`
 
-Password: `159357`
+Password: `12345678`
 
 ## Why choose us
 
